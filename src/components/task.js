@@ -49,7 +49,6 @@ export default function Task({task, users, deleteTask, updateTask, showForm, sho
                 <button onClick={()=>setShowInUpdate(true)}>Update Task</button>
             </div>          
         </div>
-        {/* , assigned_to=userIdvalue, assigned_name=userNameval postApiCall={postApiCall}} */}
         {showInUpdate && <Form type="update" originalTask={task} users={users} updateTask={updateTask} onClose={()=>setShowInUpdate(false)}/>}
     </>
     )

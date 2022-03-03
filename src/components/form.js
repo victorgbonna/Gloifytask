@@ -1,14 +1,13 @@
 import { useState } from "react"
 
 export default function Form({type, originalTask={}, updateTask, createTask, users, taskLength, onClose}) {
-    // const {
     const {id,message, due_date, assigned_to, assigned_name, priority}= originalTask
     const taskId=id || taskLength+2
     const [taskMsg, setTaskMsg]= useState(message)
     const [taskDue, setTaskDue]= useState(due_date?due_date.split(' ')[0]:'') 
     const [userIdvalue, setUserIdvalue]= useState(assigned_to)
     const [userNameval, setUserNamevalue]= useState(assigned_name)
-    // const [userNameval, setUserNameval]=useState(assigned_name || null)
+
     const [taskPr, setTaskPr]=useState(priority || '')
     const priorityList= ['High', 'Medium', 'Low']
     const changeUserVal=(e)=>{
@@ -20,11 +19,7 @@ export default function Form({type, originalTask={}, updateTask, createTask, use
       e.preventDefault()
       onClose()
     }
-    // if(createTask)
-    // const createTaskFunc=async(id, data)=>{
-    //   // const resData=await postApiCall('https://devza.com/tests/tasks/create', {id: parseInt(taskId), updates})
-    //   await createTask(id,data)
-    // }
+
     return (
 
       <div className='headerdiv'>
