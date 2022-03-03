@@ -1,0 +1,38 @@
+html{
+  font-family: 10px;
+  color: bisque;
+}
+h1{
+  color: whitesmoke;
+  text-align: center;
+}
+input{
+  padding: 10px 30px;
+}
+.container{
+  margin: 5%;
+  padding: 2% 0px;
+  border: 2px dotted dodgerblue;
+  background: dodgerblue;
+}
+.prdiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.prdiv div{
+  background: rgb(59, 59, 124);
+  width: 100%;
+  text-align: center;
+  border: 2px solid white;
+}
+.taskdiv{
+  display: grid;
+  margin: 0 10%;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.taskdiv .item{
+  background: rgb(59, 59, 124);
+
+}
