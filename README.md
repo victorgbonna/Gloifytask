@@ -40,6 +40,6 @@ This was a NextJs task project I did and It is just to test my knowledge in Java
 
 ### Contact 
 - Email- victorgbonna@gmail.com
-- Whatsapp - +234 8102603301
+- Whatsapp - +234 8072897950
 - Linkedln - [https://www.linkedin.com/in/victor-ogbonna-5a3113230](https://www.linkedin.com/in/victor-ogbonna-5a3113230)
 -  Project Link: https://github.com/victorgbonna/VouchDigitalTask
